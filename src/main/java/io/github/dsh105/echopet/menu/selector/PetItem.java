@@ -43,6 +43,7 @@ public enum PetItem {
     WITHER(PetType.WITHER, Material.getMaterial(399), 1, (short) 0,  "Wither Pet"),
     WOLF(PetType.WOLF, Material.getMaterial(383), 1, (short) 95,  "Wolf Pet"),
     ZOMBIE(PetType.ZOMBIE, Material.getMaterial(383), 1, (short) 54,  "Zombie Pet");
+    Human(PetType.Human, Material.getMaterial(383), 1, (short) 54,  "Human Pet");
 
     public PetType petType;
     private Material mat;
